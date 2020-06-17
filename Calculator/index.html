@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="body">
+    <main>
+        <div class="container">
+            <ul class="colours">
+                <li class="color yellow"></li>
+                <li class="color blue"></li>
+            </ul>
+            <form name="form">
+                <input class="textview" name="textview" /><br/>
+                <table>
+                    <tr>
+                        <td onclick="clean()"><input type="button" value="C" /></td>
+                        <td onclick="back()"><input type="button" value="<" /></td>
+                        <td onclick="insert('/')"><input type="button" value="/" /></td>
+                        <td onclick="insert('*')"><input type="button" value="X" /></td>
+                    </tr>
+                    <tr>
+                        <td onclick="insert(7)"><input type="button" value="7" /></td>
+                        <td onclick="insert(8)"><input type="button" value="8" /></td>
+                        <td onclick="insert(9)"><input type="button" value="9" /></td>
+                        <td onclick="insert('-')"><input type="button" value="-" /></td>
+                    </tr>
+                    <tr>
+                        <td onclick="insert(4)"><input type="button" value="4" /></td>
+                        <td onclick="insert(5)"><input type="button" value="5" /></td>
+                        <td onclick=" insert(6)"><input type="button" value="6" /></td>
+                        <td onclick="insert('+')"><input type="button" value="+" /></td>
+                    </tr>
+                    <tr>
+                        <td onclick="insert(1)"><input type="button" value="1" /></td>
+                        <td onclick="insert(2)"><input type="button" value="2" /></td>
+                        <td onclick="insert(3)"><input type="button" value="3" /></td>
+                        <td onclick="equal()"><input type="button" value="=" /></td>
+                    </tr>
+                    <tr>
+                        <td onclick="insert(0)"><input type="button" value="0" /></td>
+                        <td onclick="insert('.')"><input type="button" value="." /></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="toggle"></div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

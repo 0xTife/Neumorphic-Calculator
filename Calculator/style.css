@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.innershadow {
+  -webkit-box-shadow: 3px 3px 5px #cbced1, -3px -3px 10px #fff;
+          box-shadow: 3px 3px 5px #cbced1, -3px -3px 10px #fff;
+}
+
+/*-----VARIABLES-----*/
+body {
+  height: 100vh;
+  background: #ecf0f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .container {
+  height: 100%;
+  padding: 50px 40px;
+  border: none;
+  margin: 30% auto;
+  border-radius: 10px;
+  background: #ecf0f3;
+  -webkit-box-shadow: 5px 5px 10px #cbced1, -5px -5px 10px #fff;
+          box-shadow: 5px 5px 10px #cbced1, -5px -5px 10px #fff;
+}
+
+body main .container .colours {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+body main .container .colours li {
+  width: 50px;
+  height: 15px;
+  border-radius: 20px;
+  margin: 0 3px;
+}
+
+body main .container .colours li:first-child {
+  background-color: yellow;
+}
+
+body main .container .colours li:last-child {
+  background-color: dodgerblue;
+}
+
+body main .container form {
+  width: auto;
+  height: 100%;
+}
+
+body main .container form .textview {
+  width: 260px;
+  font-size: 25px;
+  height: 50px;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin: 0 0 30px 0;
+  -webkit-box-shadow: inset 5px 5px 5px #cbced1, inset -5px -5px 10px #fff;
+          box-shadow: inset 5px 5px 5px #cbced1, inset -5px -5px 10px #fff;
+}
+
+body main .container form table tr td input {
+  margin: 2px;
+  width: 60px;
+  height: 65px;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 5px #cbced1, -3px -3px 10px #fff;
+          box-shadow: 3px 3px 5px #cbced1, -3px -3px 10px #fff;
+}
+
+body main .container form .textviewyell {
+  -webkit-box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1), inset -5px -5px 10px #fff;
+          box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1), inset -5px -5px 10px #fff;
+}
+
+body main .yell {
+  background: #fffb04;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), 10px -10px 10px #fdfa3b, 5px 5px 10px rgba(0, 0, 0, 0.1), -10px -10px 10px #fdfa3b;
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), 10px -10px 10px #fdfa3b, 5px 5px 10px rgba(0, 0, 0, 0.1), -10px -10px 10px #fdfa3b;
+}
+
+body main .blue1 {
+  background: #1265ff;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #387eff;
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #387eff;
+}
+
+.blue1 {
+  background: #1265ff;
+}
+
+.yell {
+  background: #fffb04;
+}
+
+/*
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .main {
+        width: 90%;
+        
+    }
+}*/
+/*# sourceMappingURL=style.css.map */
